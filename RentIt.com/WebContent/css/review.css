@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+
+
+.box {
+    background-color: #fefefe;
+    margin: 100px auto; /* 15% from the top and centered */
+    border: 2px solid #888;
+    width: 25%; /* Could be more or less, depending on screen size */
+    
+}
+
+.button{
+   width: 100px;
+    padding: 14px 20px;
+    margin: 20px 100px 20px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 100px;
+}

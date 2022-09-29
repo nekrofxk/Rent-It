@@ -1,0 +1,194 @@
+#header{
+	padding: 0px 0px 0px 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  }
+
+
+img{
+	width: 100%;
+
+	position: relative;
+	z-index:-1;
+}
+
+
+.topnav {
+  overflow:auto;
+  background-color: black;
+  position: absolute;
+  list-style: none;
+  width: 98%;
+
+}
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 3px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 15%;
+  
+  }
+  
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: corbertregular;
+  font-weight:bold;
+}
+
+.topnav a:hover {
+  background-color: #56585b;
+  color: #fff;
+  
+}
+
+.topnav a.active {
+  background-color:#191a1c;
+  color: white;
+}
+
+@font-face {
+    font-family: "corbertregular";
+    src: url("C:/Users/Shehantha/Desktop/New folder/fonts/corbert-regular-webfont.woff");
+	}
+@font-face {font-family:"Sony Sketch EF";
+	src:url("fonts/Sony_Sketch_EF.eot?") format("eot"),
+	url("fonts/Sony_Sketch_EF.woff") format("woff"),
+	url("fonts/Sony_Sketch_EF.ttf") format("truetype"),
+	url("fonts/Sony_Sketch_EF.svg#SonySketchEF") format("svg")         
+}
+
+.sp1{
+	font-size: 70%; 
+	font-style: italic;
+	font-family: Sony Sketch EF;
+	color: white;
+}
+.centered{
+	position: absolute;
+	 align-content: center;
+
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 250%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+
+}
+.sp2{
+	color:  #5383d3;
+}
+ .bf{
+ 	margin-top: -1%;
+ 	border-radius: 5px;
+ 	padding: 12px 45px;
+	background-color: #ffb92d; 
+    color: white; 
+    font-weight: 200;
+    font-size: 20px;
+    border: 0.5px solid #ffffff;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.bf:hover{
+	background-color: transparent; 	
+    color: white;
+}
+
+//side by side images
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 49%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+//image with text
+.img1 {
+    position: relative;
+    z-index:-1;
+    
+}
+
+.text-block {
+    position: absolute;
+    left: 20%;
+    background-color: black;
+    border-radius:5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom:px;
+    transform: translate(-50%, -145%);
+    
+}
+
+.fleet{
+	width:100%;
+	background-color:#fffff0;
+	
+}
+.my_content_container a {
+    
+    color: #000000;
+    display: table-cell;
+    height: 2.5em;
+    width: 7em;       
+    text-decoration: none; 
+    border-radius:5px;    
+    text-align:center;
+    vertical-align:middle;
+    background-color:#ffb92d;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.my_content_container a:hover{
+	background-color: transparent; 	
+    color: black;
+} 
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 94%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.search{
+	content-align:center;
+	align:center;
+	
+}
+
+
